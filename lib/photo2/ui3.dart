@@ -26,7 +26,7 @@ class Ui3 extends StatelessWidget {
             leading: Icon(Icons.arrow_back_ios)
             ,
             title:  Text('Notifications',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
-            bottom: const TabBar(
+            bottom:  const TabBar(
               tabs: [
                 Text(
                   "Musics",
@@ -49,10 +49,10 @@ class Ui3 extends StatelessWidget {
                       header: Container(
                         alignment: Alignment.centerLeft,
                         color: Colors.white,
-                        padding: const EdgeInsets.all(16),
+                        padding:  EdgeInsets.all(16),
                         child: Text(
                           key,
-                          style: const TextStyle(
+                          style:  const TextStyle(
                             color: Colors.black87,
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
@@ -62,8 +62,8 @@ class Ui3 extends StatelessWidget {
                       sliver: SliverList(
                         delegate: SliverChildBuilderDelegate(
                               (context, i) => Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 16),
-                              margin: const EdgeInsets.only(bottom: 16),
+                              padding:  EdgeInsets.symmetric(horizontal: 16),
+                              margin:  EdgeInsets.only(bottom: 16),
                               child: Ui3ItemData(data: podcasts[key]![i])),
                           childCount: podcasts[key]!.length,
                         ),
@@ -71,7 +71,7 @@ class Ui3 extends StatelessWidget {
                     ),
                 ],
               ),
-              // const Text('data1'),
+              //  Text('data1'),
               CustomScrollView(
                 scrollDirection: Axis.vertical,
                 slivers: [
@@ -80,10 +80,10 @@ class Ui3 extends StatelessWidget {
                       header: Container(
                         alignment: Alignment.centerLeft,
                         color: Colors.white,
-                        padding: const EdgeInsets.all(16),
+                        padding:  EdgeInsets.all(16),
                         child: Text(
                           key,
-                          style: const TextStyle(
+                          style:  TextStyle(
                             color: Colors.black87,
                             fontWeight: FontWeight.bold,
                             fontSize: 16,
@@ -93,8 +93,8 @@ class Ui3 extends StatelessWidget {
                       sliver: SliverList(
                         delegate: SliverChildBuilderDelegate(
                               (context, i) => Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 16),
-                              margin: const EdgeInsets.only(bottom: 16),
+                              padding:  EdgeInsets.symmetric(horizontal: 16),
+                              margin:  EdgeInsets.only(bottom: 16),
                               child: Ui3ItemData(data: podcasts[key]![i])),
                           childCount: podcasts[key]!.length,
                         ),

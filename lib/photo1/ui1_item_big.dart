@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:uis13/photo1/circle_draw.dart';
 
-class Ui1ItemBig extends StatelessWidget {
-  const Ui1ItemBig({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
+Widget Ui1ItemBig() => Container(
       height: 200,
       width: 130,
       clipBehavior: Clip.hardEdge,
       decoration: BoxDecoration(
-        color:  Color(0xfff65948),
+        color: Color(0xFFf65948),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Stack(
@@ -19,7 +14,7 @@ class Ui1ItemBig extends StatelessWidget {
           Positioned(
               bottom: -70,
               right: -70,
-              child: circleDraw(200, const Color(0xffd56b3a))),
+              child: circleDraw(200, const Color(0xFFd56b3a))),
           Positioned(
               top: 15,
               right: -40,
@@ -27,7 +22,7 @@ class Ui1ItemBig extends StatelessWidget {
           Positioned(
             top: 10,
             left: 35,
-            child: circleDraw(20, const Color(0xffe7a542)),
+            child: circleDraw(20, const Color(0xFFe7a542)),
           ),
           Positioned(
             left: 10,
@@ -42,5 +37,3 @@ class Ui1ItemBig extends StatelessWidget {
         ],
       ),
     );
-  }
-}

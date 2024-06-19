@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:uis13/photo1/ui1.dart';
-import 'package:uis13/photo1/ui2.dart';
 import 'package:uis13/photo2/ui3.dart';
 import 'package:uis13/photo2/ui3_data.dart';
+import 'package:uis13/photo2/ui4.dart';
+import 'package:uis13/photo2/ui5.dart';
+import 'package:uis13/photo3/ui6.dart';
+import 'package:uis13/photo3/ui7.dart';
+import 'package:uis13/photo3/ui8.dart';
+import 'package:uis13/photo4/ui9.dart';
 import 'package:uis13/ui13/ui13.dart';
 
 void main() {
@@ -16,6 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -35,8 +40,9 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+
       ),
-      home: Ui3(),
+      home: Ui9(),
     );
   }
 }

@@ -52,7 +52,7 @@ class Ui2Item extends StatelessWidget {
                   style:  TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xff7178d3),
+                    color: Color(0xFF7178d3),
                   ),
                 ),
                  Spacer(),
@@ -61,7 +61,7 @@ class Ui2Item extends StatelessWidget {
                   width: 8,
                   height: 8,
                   decoration:  BoxDecoration(
-                    color: Color(0xffd56b3a),
+                    color: Color(0xFFd56b3a),
                     shape: BoxShape.circle,
                   ),
                 ),
@@ -101,7 +101,7 @@ class Ui2Item extends StatelessWidget {
                             margin:  EdgeInsets.only(right: 10),
                             padding:  EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                             decoration: BoxDecoration(
-                              color:  Color(0xffe1cec3),
+                              color:  Color(0xFFe1cec3),
                               borderRadius: BorderRadius.circular(10),
                             ),
                             child: Text(e, style:  TextStyle(fontSize: 10, color: Color(0xFF7178d3)))),

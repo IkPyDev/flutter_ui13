@@ -11,7 +11,7 @@ class AppBarCustom extends StatelessWidget {
       width: double.infinity,
       clipBehavior: Clip.antiAlias,
       decoration: const BoxDecoration(
-        color: Color(0xfffe6d5d),
+        color: Color(0xFFfe6d5d),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(56),
           bottomRight: Radius.circular(56),
@@ -25,7 +25,7 @@ class AppBarCustom extends StatelessWidget {
             right: -90,
             child: circleDraw(
               300,
-              const Color(0xfffd7e6d),
+              const Color(0xFFfd7e6d),
             ),
           ),
           Positioned(
@@ -33,7 +33,7 @@ class AppBarCustom extends StatelessWidget {
             left: -50,
             child: circleDraw(
               150,
-              const Color(0xfff36453),
+              const Color(0xFFf36453),
             ),
           ),
           Positioned(
@@ -43,7 +43,7 @@ class AppBarCustom extends StatelessWidget {
               270,
               Colors.transparent,
               true,
-              const Color(0xfffd7e6d),
+              const Color(0xFFfd7e6d),
             ),
           ),
           const Center(

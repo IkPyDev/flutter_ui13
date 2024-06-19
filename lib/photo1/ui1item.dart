@@ -12,7 +12,7 @@ class Ui1item extends StatelessWidget {
       width: 124,
       clipBehavior: Clip.hardEdge,
       decoration: BoxDecoration(
-        color:  Color(0xfffc604e),
+        color:  Color(0xFFfc604e),
         borderRadius: BorderRadius.circular(20),
       ),
       child: Stack(
@@ -20,7 +20,7 @@ class Ui1item extends StatelessWidget {
           Positioned(
               bottom: -70,
               right: -70,
-              child: circleDraw(200,  Color(0xffff8d5a))),
+              child: circleDraw(200,  Color(0xFFff8d5a))),
           Positioned(
               top: 15,
               right: -40,
@@ -28,7 +28,7 @@ class Ui1item extends StatelessWidget {
           Positioned(
             top: 10,
             left: 35,
-            child: circleDraw(20,  Color(0xfffdbc5a)),
+            child: circleDraw(20,  Color(0xFFfdbc5a)),
           ),
           Positioned(
             left: 10,

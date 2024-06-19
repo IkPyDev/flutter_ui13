@@ -5,7 +5,7 @@ import 'package:gap/gap.dart';
 class Ui3ItemData extends StatelessWidget {
   final Ui3Data data;
 
-   Ui3ItemData({super.key, required this.data});
+   const Ui3ItemData({super.key, required this.data});
 
   @override
   Widget build(BuildContext context) {
